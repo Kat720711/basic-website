@@ -1,0 +1,156 @@
+body {
+    background-color: coral;
+}
+
+.Full-Name {
+    background-image: url(tablemountain.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.Beauty {
+    background-color: cornflowerblue;
+}
+
+.Link {
+    /* box_model */
+    border: 1px solid rgba(253, 33, 4, 0.667);
+    padding: 1cm;
+    margin: 1cm;
+    /* margin-left: 0cm; */
+    margin-bottom: 0.5cm;
+    border-radius: 1cm;
+}
+
+@media (min-width: 960px) {
+    .Conytainer {
+        display: flex;
+    }
+}
+
+.phone {
+    background-color: bisque;
+    flex: 2;
+}
+
+.tone {
+    background-color: chartreuse;
+    flex: 2;
+}
+
+.Place {
+    /* box_model */
+    border: 1px solid rgba(253, 33, 4, 0.667);
+    padding: 1cm;
+    margin: 1cm;
+    /* margin-left: 0cm; */
+    margin-bottom: 0.5cm;
+    border-radius: 1cm;
+    flex-wrap: wrap;
+}
+
+@media (min-width: 960px) {
+    .places {
+        display: flex;
+    }
+}
+
+.Place {
+    display: flex; /* Use flexbox to align items */
+    align-items: center; /* Align items vertically */
+}
+
+.Place img {
+    width: 100px; /* Set width of the image */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Optional: Add spacing between image and text */
+}
+
+@media (min-width: 960px) {
+    .places {
+        display: block;
+    }
+
+    .Place {
+        order: 1;
+    }
+}
+
+.p1 {
+    background-color: aqua;
+    flex: 2;
+}
+
+.p2 {
+    background-color: chartreuse;
+    flex: 2;
+}
+
+.p3 {
+    background-color: gold;
+    flex: 2;
+}
+
+.Full-Name {
+    background-color: blueviolet;
+    border: 1px solid rgba(253, 33, 4, 0.667);
+    padding: 1cm;
+    margin: 1cm;
+    /* margin-left: 0cm; */
+    margin-bottom: 0.5cm;
+    border-radius: 1cm;
+}
+
+.Which {
+    background-color: peru;
+    border: 1px solid rgba(253, 33, 4, 0.667);
+    padding: 1cm;
+    margin: 1cm;
+    /* margin-left: 0cm; */
+    margin-bottom: 0.5cm;
+    border-radius: 1cm;
+    text-align: center;
+}
+
+.Foreign {
+    background-color: forestgreen;
+    border: 1px solid rgba(253, 33, 4, 0.667);
+    padding: 1cm;
+    margin: 1cm;
+    /* margin-left: 0cm; */
+    margin-bottom: 0.5cm;
+    border-radius: 1cm;
+    text-align: center;
+}
+
+@media (min-width: 960px) {
+    .Favorites {
+        display: flex;
+    }
+}
+
+.Sub {
+    /* box_model */
+    border: 1px solid rgba(253, 33, 4, 0.667);
+    padding: 1cm;
+    margin: 1cm;
+    /* margin-left: 0cm; */
+    margin-bottom: 0.5cm;
+    border-radius: 1cm;
+}
+
+.four {
+    background-color: cadetblue;
+    flex: 2;
+}
+
+.full {
+    background-color: darkgrey;
+    flex: 2;
+}
+
+.agile {
+    background-color: darkkhaki;
+    flex: 2;
+}
